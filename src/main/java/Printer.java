@@ -61,8 +61,8 @@
                         new ClassVisitor().visit(cu, null);
                     }
                 }
-                System.out.println(interfaces);
-                System.out.println(classes);
+                //System.out.println(interfaces);
+                //System.out.println(classes);
 
                 OutputStream png = new FileOutputStream(folderpath + "/" + umlname + ".png");
                 //OutputStream png = new FileOutputStream("/users/huimin/Desktop/test6.png");
