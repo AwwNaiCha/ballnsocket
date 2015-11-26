@@ -7,8 +7,8 @@ public enum RelationSymbol {
     association("--"),
     composition("*--"),
     aggregation("o--"),
-    dependency("..>"),
-    implement("..|>"),
+    dependency("--"),
+    implement("--"),
     ballnsocket("-0)-");
 
 
